@@ -6,7 +6,6 @@ import logo from '../images/logo.svg'
 
 const HeaderWrapper = styled.div`
   background: #524763;
-  margin-bottom: 1.45rem;
   img {
     margin-bottom: 0;
   }
@@ -15,7 +14,7 @@ const HeaderWrapper = styled.div`
 const HeaderContainer = styled.div`
   margin: 0 auto;
   max-width: 960px;
-  padding: 1rem;
+  padding: 0.3rem;
 `
 
 const Header = ({ siteTitle }) => (
